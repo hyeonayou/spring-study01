@@ -61,4 +61,5 @@ public class MemoryMemberRepositoryTest {
         List<Member> result = repository.findAll();
     }
 
+
 }
