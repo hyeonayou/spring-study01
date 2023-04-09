@@ -3,7 +3,7 @@ package hello.hellospring.domain;
 public class Member {
 
     private Long id;
-    private String naem;
+    private String name;
 
     public Long getId() {
         return id;
@@ -13,11 +13,13 @@ public class Member {
         this.id = id;
     }
 
-    public String getNaem() {
-        return naem;
+    public String getName() {
+        return name;
     }
 
-    public void setNaem(String naem) {
-        this.naem = naem;
+    public void setName(String name) {
+        this.name = name;
     }
+
+
 }
